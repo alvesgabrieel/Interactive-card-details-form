@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
-    margin-right: 0px;
+    margin-right: 52px;
     margin-top: 210px;
   }
 `

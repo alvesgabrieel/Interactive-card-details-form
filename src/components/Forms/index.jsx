@@ -31,13 +31,16 @@ const Forms = () => {
 
 
   const mudarTela = () => {
-    setTelaFinal(!telaFinal)
-    setNome('')
-    setNumeroCartao('')
-    setData('')
-    setCvc('')
+    if(telaFinal) {
+      setTelaFinal(!telaFinal)
+    } else {
+      setTelaFinal(!telaFinal)
+      setNome('')
+      setNumeroCartao('')
+      setData('')
+      setCvc('')
+    }
   }
-
 
   return (
     <>
