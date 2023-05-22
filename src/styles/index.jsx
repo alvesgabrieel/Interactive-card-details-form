@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import bg from '../../public/bg-main-desktop.png'
 
 const EstiloGlobal = createGlobalStyle`
   *{
@@ -9,12 +10,12 @@ const EstiloGlobal = createGlobalStyle`
   }
 
   body{
-    background-image: url('../public/bg-main-desktop.png');
+    background-image: url(${bg});
     background-repeat: no-repeat;
     background-size: 30% auto;
 
     @media (max-width: 768px) {
-      background: url('../public/bg-main-mobile.png');
+      background: url('././public/bg-main-mobile.png');
       background-repeat: no-repeat;
       background-size: 100%;
     }
