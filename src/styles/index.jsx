@@ -9,12 +9,12 @@ const EstiloGlobal = createGlobalStyle`
   }
 
   body{
-    background: url('../public/bg-main-desktop.png');
+    background-image: url('../public/bg-main-desktop.png');
     background-repeat: no-repeat;
     background-size: 30% auto;
 
     @media (max-width: 768px) {
-      background-image: '../public/bg-main-mobile.png';
+      background: url('../public/bg-main-mobile.png');
       background-repeat: no-repeat;
       background-size: 100%;
     }
