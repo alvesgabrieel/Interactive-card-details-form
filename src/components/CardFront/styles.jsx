@@ -20,3 +20,50 @@ export const DivCartao = styled.div`
   }
 `
 
+export const Cartao = styled.div`
+  padding: 25px;
+`
+
+export const Img = styled.img`
+  @media (max-width: 768px) {
+    height: 37px;
+  }
+`
+
+export const Numero = styled.div`
+  margin-top: 60px;
+  font-size: 27px;
+  letter-spacing: 4px;
+  color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+  }
+`
+
+export const nameAndDateContainer = styled.div`
+  margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    margin-top: 10px;
+  }
+`
+
+export const Name =styled.span`
+  color: #fff;
+
+`
+export const Date =styled.span`
+  color: #fff;
+  margin-right: 27px;
+
+  @media (max-width: 768px) {
+    margin-right: 8px;
+  }
+`
+

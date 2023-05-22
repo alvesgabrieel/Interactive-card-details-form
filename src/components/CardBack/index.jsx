@@ -1,9 +1,9 @@
 import * as S from './styles'
 
-const CardBack = () => {
+const CardBack = ({ cvc }) => {
   return (
     <S.DivCartao>
-      <span>000</span>
+      {cvc !== '' ? <S.NumeroCVV>{cvc}</S.NumeroCVV> : <S.NumeroCVV>576</S.NumeroCVV>}
     </S.DivCartao>
   )
 }

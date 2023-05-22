@@ -128,6 +128,10 @@ export const Btn = styled.button`
   color: #fff;
   cursor: pointer;
 
+  &:hover{
+    background-color: #440450;
+  }
+
   @media (max-width: 768px) {
     width: 40vh;
     margin-left: 15px;

@@ -18,3 +18,17 @@ export const DivCartao = styled.div`
 
   }
 `
+
+export const NumeroCVV = styled.span`
+  display: flex;
+  justify-content: center;
+  margin-top: 109px;
+  margin-left: 274px;
+  color: #fff;
+  font-size: 18px;
+
+  @media (max-width: 768px) {
+    margin-top: 71px;
+    margin-left: 169px;
+  }
+`
