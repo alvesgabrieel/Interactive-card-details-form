@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import cardBack from '../../../public/bg-card-back.png'
 
 export const DivCartao = styled.div`
-  background-image: url('../public/bg-card-back.png');
+  background-image: url(${cardBack});
   background-repeat: no-repeat;
   height: 246px;
   width: 448px;

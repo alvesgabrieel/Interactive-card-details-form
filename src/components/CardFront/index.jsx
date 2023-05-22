@@ -1,10 +1,11 @@
 import * as S from './styles'
+import logo from '../../../public/card-logo.svg'
 
 const CardFront = ( {nome, numero, data } ) => {
   return (
     <S.DivCartao>
       <S.Cartao>
-        <S.Img src="../public/card-logo.svg" alt="logo do cartao" />
+        <S.Img src={logo} alt="logo do cartao" />
         {numero !== '' ? <S.Numero>{numero}</S.Numero> : <S.Numero>0000 0000 0000 0000</S.Numero>}
         <S.nameAndDateContainer>
           {nome !== '' ? <S.Name>{nome}</S.Name> : <S.Name>MARIA ALVES SANTANA</S.Name>}
