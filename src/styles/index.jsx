@@ -14,7 +14,7 @@ const EstiloGlobal = createGlobalStyle`
     background-size: 30% auto;
 
     @media (max-width: 768px) {
-      background: url('../public/bg-main-mobile.png');
+      background-image: '../public/bg-main-mobile.png';
       background-repeat: no-repeat;
       background-size: 100%;
     }
