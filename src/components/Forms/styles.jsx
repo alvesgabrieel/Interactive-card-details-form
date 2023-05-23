@@ -9,8 +9,14 @@ export const Container = styled.div`
   position: relative;
 
   @media (max-width: 768px) {
-    display: flex;
-    margin-right: 0px;
+  max-width: 70%;
+  width: 100%;
+  margin: 228px auto 0;
+  align-items: center;
+  }
+
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    margin-right: 200px;
     margin-top: 210px;
   }
 `
@@ -55,8 +61,13 @@ export const InputSmallDiv = styled.div`
     margin-right: 315px;
 
     @media (max-width: 768px) {
-      justify-content: flex-start;
-      margin-left: 13px;
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+  }
+
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    margin-right: 114px;
   }
 `
 
@@ -90,6 +101,7 @@ export const Data = styled.h3`
 
   @media (max-width: 768px) {
     margin-left: 18px;
+    width: 150px;
   }
 
 `
@@ -101,7 +113,7 @@ export const Cvv = styled.h3`
 
   @media (max-width: 768px) {
     top: 197px;
-    right: 89px;
+    right: 50px;
   }
 `
 
@@ -114,8 +126,13 @@ export const DivBtn = styled.div`
   margin-top: 35px;
 
   @media (max-width: 768px) {
-    display: block;
-    margin-top: 10px;
+    width: 86%;
+    margin: 30px 19px 0px 25px;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    margin-right: 198px;
   }
 `
 
@@ -133,7 +150,6 @@ export const Btn = styled.button`
   }
 
   @media (max-width: 768px) {
-    width: 40vh;
-    margin-left: 15px;
+
   }
 `
