@@ -16,7 +16,11 @@ export const DivCartao = styled.div`
     height: 172px;
     width: 80.5vw;
     background-size: contain;
+  }
 
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    top: 365px;
+    left: 15vw;
   }
 `
 

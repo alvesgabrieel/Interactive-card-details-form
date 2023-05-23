@@ -19,6 +19,11 @@ export const DivCartao = styled.div`
     position: relative;
     z-index: 1;
   }
+
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    top: 100px;
+    left: 6vw;
+  }
 `
 
 export const Cartao = styled.div`
