@@ -9,14 +9,24 @@ export const Container = styled.div`
   position: relative;
 
   @media (max-width: 768px) {
-    display: flex;
-    margin-right: 52px;
-    margin-top: 210px;
+      max-width: 70%;
+      width: 100%;
+      margin: 228px auto 0;
+      align-items: center;
+  }
+
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    margin-right: 200px;
   }
 `
 export const Img = styled.div`
   margin-right: 114px;
   margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+      margin: 0 auto;
+      align-items: center;
+  }
 `
 
 export const Text = styled.div`
@@ -28,5 +38,11 @@ export const Text = styled.div`
 
   p{
     color: #959595;
+
+    @media (max-width: 768px) {
+      margin: 0 auto;
+      align-items: center;
+      width: 301px;
+    }
   }
 `

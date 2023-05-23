@@ -9,14 +9,14 @@ export const Container = styled.div`
   position: relative;
 
   @media (max-width: 768px) {
-  max-width: 70%;
-  width: 100%;
-  margin: 228px auto 0;
-  align-items: center;
+    max-width: 70%;
+    width: 100%;
+    margin: 228px auto 0;
+    align-items: center;
   }
 
   @media (min-width: 768px) and (max-width: 1500px)  {
-    margin-right: 200px;
+    margin-right: 150px;
     margin-top: 210px;
   }
 `
@@ -52,6 +52,10 @@ export const InputSmall = styled.input`
     height: 45px;
     width: 170px;
     margin-right: 14px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1500px)  {
+    margin-right: 60px;
   }
 `
 
@@ -129,10 +133,11 @@ export const DivBtn = styled.div`
     width: 86%;
     margin: 30px 19px 0px 25px;
     align-items: center;
+    margin-bottom: 50px;
   }
 
   @media (min-width: 768px) and (max-width: 1500px)  {
-    margin-right: 198px;
+    margin-right: 155px;
   }
 `
 
